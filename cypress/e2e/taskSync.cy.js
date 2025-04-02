@@ -1,6 +1,6 @@
 describe('TaskSync End-to-End Tests', () => {
     beforeEach(() => {
-        cy.visit('http://localhost:3000'); // Replace with your local server URL
+        cy.visit('http://localhost:8080'); // Replace with your local server URL
     });
 
     it('should add a new task', () => {
