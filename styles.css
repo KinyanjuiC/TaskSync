@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f0ea; /* Soft light background */
+    background-color: #abdadc; /* Default background */
     font-family: 'Inter', sans-serif; /* Modern font */
     color: #334155; /* Dark slate gray for text */
     margin: 0;
@@ -8,16 +8,16 @@ body {
 
 .container {
     background-color: #ffffff; /* White container for contrast */
-    border-radius: 0.75rem; /* Slightly larger border radius for a modern feel */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     margin: 2rem auto;
-    max-width: 700px; /* Slightly wider container */
+    max-width: 700px;
 }
 
 .form-control {
-    border-radius: 0.5rem; /* Larger radius for inputs */
-    border: 1px solid #cbd5e1; /* Light slate gray border */
+    border-radius: 0.5rem;
+    border: 1px solid #cbd5e1;
     padding: 0.875rem;
     font-size: 1rem;
     width: 100%;
@@ -26,13 +26,29 @@ body {
 }
 
 .form-control:focus {
-    border-color: #14b8a6; /* Teal focus border */
+    border-color: #14b8a6;
     outline: none;
-    box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.3); /* Teal focus glow */
+    box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.3);
+}
+
+#profile-selector {
+    border-radius: 0.5rem;
+    border: 1px solid #cbd5e1;
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#profile-selector:focus {
+    border-color: #7c3aed;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.3);
 }
 
 .btn-primary {
-    background-color: #7c3aed; /* Purple primary button */
+    background-color: #7c3aed;
     border: none;
     color: #ffffff;
     padding: 0.875rem 1.75rem;
@@ -43,7 +59,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #6d28d9; /* Darker purple on hover */
+    background-color: #6d28d9;
     transform: translateY(-2px);
 }
 
@@ -76,6 +92,22 @@ body {
 
 .btn-danger:hover {
     background-color: #ea580c; /* Darker orange on hover */
+    transform: translateY(-2px);
+}
+
+.btn-warning {
+    background-color: #facc15; /* Yellow for edit button */
+    border: none;
+    color: #ffffff;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-warning:hover {
+    background-color: #eab308; /* Darker yellow on hover */
     transform: translateY(-2px);
 }
 
