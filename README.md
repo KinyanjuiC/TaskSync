@@ -1,5 +1,5 @@
 TaskSync
-A modern task manager web application built with HTML, CSS, and JavaScript, featuring user-friendly functionalities for task management, a stylish design, and real-time updates.
+A modern task manager stand-alone web application built with HTML, CSS, and JavaScript, featuring user-friendly functionalities for task management, a stylish design and real-time updates.
 
 Features
 Task Management
